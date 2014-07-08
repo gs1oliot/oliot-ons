@@ -1,0 +1,8 @@
+zone "1.0.0.0.0.0.0.0.0.0.0.gtin.gs1.id.onsepc.com" {
+	type master;
+	file "/etc/bind/Zones/1.0.0.0.0.0.0.0.0.0.0.gtin.gs1.id.onsepc.com-zone";
+	allow-query {any; };
+	allow-update {none;};
+};
+
+

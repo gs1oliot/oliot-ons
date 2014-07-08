@@ -1,0 +1,29 @@
+$TTL 86400 ; 1 day
+@ IN SOA ns.1.0.0.0.0.0.0.0.0.0.0.gtin.gs1.id.onsepc.com. hostmaster.company.co.kr. (
+                                    2008010801 ; serial
+                                    21600 ; refresh (6 hours)
+                                     1800 ; retry (30 minutes)
+                                  1209600 ; expire (2 weeks)
+                                    86400 ; minimum (1 day)
+)
+                                         IN NS ns.1.0.0.0.0.0.0.0.0.0.0.gtin.gs1.id.onsepc.com.
+ns.1.0.0.0.0.0.0.0.0.0.0.gtin.gs1.id.onsepc.com. IN A 127.0.0.1
+$ORIGIN 1.0.0.0.0.0.0.0.0.0.0.gtin.gs1.id.onsepc.com.
+0.1 IN NAPTR 0 0 "t" "http://www.gs1.org/ons/prefix" "!^.*$!003,7!" .
+0.1 IN NAPTR 0 0 "U" "http://www.gs1.org/ons/epcis" "!^.*$!http://autoid3.kaist.ac.kr/epcis-repository-0.4.2/query!" .
+0.1 IN NAPTR 0 0 "U" "http://143.248.53.35:8081/ONSExtendedService/ONSServiceList/ManufacturerService/ManufacturerService.xml" "!^.*$!!" .
+0.2 IN NAPTR 0 0 "t" "http://www.gs1.org/ons/prefix" "!^.*$!003,7!" .
+0.2 IN NAPTR 0 0 "U" "http://www.gs1.org/ons/epcis" "!^.*$!http://autoid3.kaist.ac.kr/epcis-repository-0.4.2/query!" .
+0.2 IN NAPTR 0 0 "U" "http://143.248.53.35:8081/ONSExtendedService/ONSServiceList/ManufacturerService/ManufacturerService.xml" "!^.*$!!" .
+0.3 IN NAPTR 0 0 "t" "http://www.gs1.org/ons/prefix" "!^.*$!003,7!" .
+0.3 IN NAPTR 0 0 "U" "http://www.gs1.org/ons/epcis" "!^.*$!http://autoid3.kaist.ac.kr/epcis-repository-0.4.2/query!" .
+0.3 IN NAPTR 0 0 "U" "http://143.248.53.35:8081/ONSExtendedService/ONSServiceList/ManufacturerService/ManufacturerService.xml" "!^.*$!!" .
+1.1 IN NAPTR 0 0 "t" "http://www.gs1.org/ons/prefix" "!^.*$!003,7!" .
+1.1 IN NAPTR 0 0 "U" "http://www.gs1.org/ons/epcis" "!^.*$!http://autoid3.kaist.ac.kr/epcis-repository-0.4.2/query!" .
+1.1 IN NAPTR 0 0 "U" "http://143.248.53.35:8081/ONSExtendedService/ONSServiceList/ManufacturerService/ManufacturerService.xml" "!^.*$!!" .
+3.4 IN NAPTR 0 0 "t" "http://www.gs1.org/ons/prefix" "!^.*$!003,7!" .
+3.4 IN NAPTR 0 0 "U" "http://www.gs1.org/ons/epcis" "!^.*$!http://autoid3.kaist.ac.kr/epcis-repository-0.4.2/query!" .
+3.4 IN NAPTR 0 0 "U" "http://143.248.53.35:8081/ONSExtendedService/ONSServiceList/ManufacturerService/ManufacturerService.xml" "!^.*$!!" .
+3.5 IN NAPTR 0 0 "t" "http://www.gs1.org/ons/prefix" "!^.*$!003,7!" .
+3.5 IN NAPTR 0 0 "U" "http://www.gs1.org/ons/epcis" "!^.*$!http://autoid3.kaist.ac.kr/epcis-repository-0.4.2/query!" .
+3.5 IN NAPTR 0 0 "U" "http://143.248.53.35:8081/ONSExtendedService/ONSServiceList/ManufacturerService/ManufacturerService.xml" "!^.*$!!" .
